@@ -9,6 +9,16 @@
 
 .. towncrier release notes start
 
+5.1.5.post0 (2019-02-20)
+------------------------
+
+Bug fixes:
+
+
+- Check only once if Products.ATContentTypes is available.
+  [gforcada] (#2765)
+
+
 5.1.5 (2019-01-07)
 ------------------
 
