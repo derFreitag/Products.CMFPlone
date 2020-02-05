@@ -1,0 +1,3 @@
+Initialize Plone site fields, as we use Asko's fork of
+plone.dexterity and Plone is a dexterity type now.
+[gforcada]
