@@ -12,6 +12,36 @@ Changelog
 
 .. towncrier release notes start
 
+5.2.2.post0 (2020-08-21)
+------------------------
+
+Breaking changes:
+
+
+- A part of "Drop Python 2 Support for Plone 6" #2812:
+  Reflect dropping of Python 2 support in setup.py.
+  Bump version to 6.0
+  [jensens] (#3041)
+
+
+New features:
+
+
+- Custom date format strings from registry can be in the ``${}`` format as in the locales files. 
+  If theres a day or month name used, this will be translated. 
+  For bbb the classic strftime ``%`` strings are still behaving like before.
+  [jensens] (#3084)
+
+
+Bug fixes:
+
+
+- Adapt the code to the removed `exclude_from_nav` catalog column/index.
+  [gforcada] (#0)
+- A default WSGI configuration requires Paste which is only installed with the Zope[wsgi] extra..
+  [tschorr] (#3039)
+
+
 5.2.2 (2020-08-16)
 ------------------
 
