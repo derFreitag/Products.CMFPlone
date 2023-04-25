@@ -12,6 +12,18 @@ Changelog
 
 .. towncrier release notes start
 
+5.2.12.post0 (2023-04-25)
+-------------------------
+
+Bug fixes:
+
+
+- Adapt the code to the removed `exclude_from_nav` catalog column/index.
+  [gforcada] (#0)
+- Update metadata version to 5221, Plone 5.2.13.
+  [maurits] (#5221)
+
+
 5.2.12 (2023-04-21)
 -------------------
 
