@@ -15,6 +15,15 @@
 
 <!-- towncrier release notes start -->
 
+## 6.0.4.post0 (2023-04-29)
+
+
+### Bug fixes:
+
+- Adapt the code to the removed `exclude_from_nav` catalog column/index.
+  [gforcada] #0
+
+
 ## 6.0.4 (2023-04-24)
 
 
