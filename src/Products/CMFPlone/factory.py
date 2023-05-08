@@ -184,6 +184,11 @@ def addPloneSite(
     notify(ObjectCreatedEvent(site))
     context[site_id] = site
 
+    # XXX(gforcada): we can not use plone.dexterity.utils.initialize_missing_attributes
+    # as the website is still not fully initialized
+    setattr(site, 'text', None)
+    setattr(site, 'relatedItems', None)
+
     site = context[site_id]
     site.setLanguage(default_language)
     # Set the accepted language for the rest of the request.  This makes sure
