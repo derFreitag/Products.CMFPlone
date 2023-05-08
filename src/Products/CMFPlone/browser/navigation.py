@@ -137,8 +137,6 @@ class CatalogNavigationTabs(BrowserView):
         rawresult = catalog.searchResults(query)
 
         def _get_url(item):
-            if item.getRemoteUrl and not member == item.Creator:
-                return (get_id(item), item.getRemoteUrl)
             return get_view_url(item)
 
         context_path = "/".join(context.getPhysicalPath())
