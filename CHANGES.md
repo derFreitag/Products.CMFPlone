@@ -15,6 +15,20 @@
 
 <!-- towncrier release notes start -->
 
+## 6.1.4.post0 (2026-02-10)
+
+
+### Bug fixes:
+
+- Adapt the code to the removed `exclude_from_nav` catalog column/index.
+  [gforcada] 
+- Initialize Plone site fields, as we use Asko's fork of
+  plone.dexterity and Plone is a dexterity type now.
+  [gforcada] 
+- Remove reference to getRemoteUrl.
+  At der Freitag we removed that metadata column.
+  [gforcada] 
+
 ## 6.1.4 (2026-01-15)
 
 
