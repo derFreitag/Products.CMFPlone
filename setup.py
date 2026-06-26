@@ -1,7 +1,7 @@
 from pathlib import Path
 from setuptools import setup
 
-version = "6.2.1.post0"
+version = "6.2.1.post1.dev0"
 
 long_description = (
     f"{Path('README.md').read_text()}\n{Path('CHANGES.md').read_text()}\n"
